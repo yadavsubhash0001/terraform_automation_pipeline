@@ -9,7 +9,7 @@ resource "aws_instance" "server" {
   security_groups = ["allow_all"]
   user_data = <<-EOF
 #! /bin/bash
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKjCudOb1foC+TdIX2+LCjZSXdi/E9nbJ5Lck7g0+4jmv21vpW0RfvkhK6DsooQVhhutt2NaVVQysw8pBNQLDCZyX/lqFHsW+rTN6Nljtvwx+tdreaJWizcfYnfhNh8xk+RmB+pCTxKaLNKk2Jr7L8r3qVyRJm6isSy5+edSwHnRlFXakqLnryj90yQJGOjOdiZ/STRWaB1kRWNnua8jMjR7KlYzvCVEExa1EAKfpI+PzbqpfpOwOWNbqr1Vdi5w9eF35yj8r51ZP0AUV43XayxQHFQPKbSEOembJybnGhhwk0IlAo7SgWO0i339+enr61pWMW4JDXPYmiT/sXnkmP websultanate@websultanate-260-a040il
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKjCudOb1foC+TdIX2+LCjZSXdi/E9nbJ5Lck7g0+4jmv21vpW0RfvkhK6DsooQVhhutdcscdcdsdccvbghynbfgvt2NaVVQysw8pBNQLDCZyX/lqFHsW+rTN6Nljtvwx+tdreaJWizcfYnfhNh8l
 " > /root/.ssh/authorized_keys
 sudo apt-get update
 sudo apt-get install -y python
